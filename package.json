@@ -1,0 +1,42 @@
+{
+  "name": "adonis-vue-inertia-ssr",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ace serve --watch",
+    "build": "node ace build --production",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.8.1",
+    "@japa/preset-adonis": "^1.1.0",
+    "@japa/runner": "^2.0.9",
+    "@symfony/webpack-encore": "^3.0.0",
+    "@vue/compiler-sfc": "^3.2.37",
+    "adonis-preset-ts": "^2.1.0",
+    "file-loader": "^6.0.0",
+    "pino-pretty": "^8.1.0",
+    "postcss-loader": "^7.0.0",
+    "typescript": "~4.6",
+    "vue": "^3.2.14",
+    "vue-loader": "^17.0.0",
+    "webpack-node-externals": "^3.0.0",
+    "youch": "^3.2.0",
+    "youch-terminal": "^2.1.4"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^5.8.0",
+    "@adonisjs/repl": "^3.1.0",
+    "@adonisjs/session": "^6.4.0",
+    "@adonisjs/view": "^6.1.6",
+    "@eidellev/inertia-adonisjs": "^7.0.0",
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@vue/server-renderer": "^3.2.37",
+    "autoprefixer": "^10.4.8",
+    "proxy-addr": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21",
+    "tailwindcss": "^3.1.8"
+  }
+}
